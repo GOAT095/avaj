@@ -7,13 +7,13 @@ package com.goat.avaj.aircraft;
      some
      _____  some is static
  */
-public abstract class Aircraft {
+public class Aircraft {
      protected long id ; // auto generated (not included in uml constructor)
      protected String name;
 
     static long idCounter;
     private Coordinates coordinates;
-    abstract void fuckOff();
+//    abstract void fuckOff();
     public Aircraft(String name, Coordinates coordinates) {
         this.id = nextId();
         this.name = name;
