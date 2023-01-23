@@ -18,7 +18,6 @@ public class AircraftFactory {
                 return new Baloon(name, coordinates);
             default:
                 throw new IllegalArgumentException("Unknown channel "+ type);
+            }
         }
-        }
-    }
 }
