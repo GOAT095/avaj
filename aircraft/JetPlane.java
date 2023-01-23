@@ -3,16 +3,14 @@ package com.goat.avaj.aircraft;
 import com.goat.avaj.flayable.Flayable;
 import com.goat.avaj.tower.WeatherTower;
 
-public class Helicopter extends Aircraft implements Flayable {
-    private WeatherTower weatherTower;
+public class JetPlane extends Aircraft implements Flayable {
+    private  WeatherTower weatherTower;
+    public JetPlane(String name, Coordinates coordinates) {
+        super(name, coordinates);
+    }
 
     @Override
     void fuckOff() {
-
-    }
-
-    Helicopter(String name, Coordinates coordinates){
-        super(name, coordinates);
 
     }
 
@@ -25,11 +23,4 @@ public class Helicopter extends Aircraft implements Flayable {
     public void registerTower(WeatherTower weatherTower) {
 
     }
-    @Override
-    public void something()
-    {
-
-    }
-
-
 }
