@@ -1,9 +1,9 @@
 package com.goat.avaj.aircraft;
 
 public class Coordinates {
-    private int longitude;
-    private int latitude;
-    private int height;
+    final private int longitude;
+    final private int latitude;
+    final private int height;
 
     public Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
@@ -31,6 +31,8 @@ public class Coordinates {
                 ", height=" + height +
                 '}';
     }
+
+
 
 //    @Override
 //    protected Object clone() throws CloneNotSupportedException {

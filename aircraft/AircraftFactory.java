@@ -17,7 +17,7 @@ public class AircraftFactory {
             case "Baloon":
                 return new Baloon(name, coordinates);
             default:
-                throw new IllegalArgumentException("Unknown channel "+ type);
+                throw new IllegalArgumentException("Unknown Aircraft Type "+ type);
             }
         }
 }

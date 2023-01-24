@@ -9,10 +9,10 @@ public class JetPlane extends Aircraft implements Flayable {
         super(name, coordinates);
     }
 
-    @Override
-    void fuckOff() {
-
-    }
+//    @Override
+//    void fuckOff() {
+//
+//    }
 
     @Override
     public void updateConditions() {
@@ -22,5 +22,10 @@ public class JetPlane extends Aircraft implements Flayable {
     @Override
     public void registerTower(WeatherTower weatherTower) {
 
+    }
+
+    @Override
+    public String toString() {
+        return "JetPlane#" + this.name + "(" +  this.id + ")";
     }
 }

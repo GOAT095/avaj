@@ -6,10 +6,10 @@ import com.goat.avaj.tower.WeatherTower;
 public class Baloon extends Aircraft implements Flayable {
     private WeatherTower weatherTower;
 
-    @Override
-    void fuckOff() {
-
-    }
+//    @Override
+//    void fuckOff() {
+//
+//    }
 
     public Baloon(String name, Coordinates coordinates){
         super(name, coordinates);
@@ -22,5 +22,10 @@ public class Baloon extends Aircraft implements Flayable {
     @Override
     public void updateConditions(){
 
+    }
+
+    @Override
+    public String toString() {
+        return "Baloon#" + this.name + "(" +  this.id + ")";
     }
 }
