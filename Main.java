@@ -8,7 +8,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         File inFile = null;
-        if (args.length != 1) {
+        System.out.println(args.length);
+        if ((args.length == 1)) {
             inFile = new File(args[0]);
         }
         else {
