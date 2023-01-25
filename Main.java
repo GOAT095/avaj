@@ -11,19 +11,19 @@ public class Main {
         if (0 < args.length) {
             inFile = new File(args[0]);
         }
-
+        else {
+            System.err.println("invalide arguments count: " + args.length);
+            System.exit(0);
+        }
         BufferedReader br = null;
 
         try {
 
             String sCurrentLine;
-
             br = new BufferedReader(new FileReader(inFile));
-
             while ((sCurrentLine = br.readLine()) != null) {
                 System.out.println(sCurrentLine);
             }
-
         }
         catch (IOException e) {
             e.printStackTrace();
