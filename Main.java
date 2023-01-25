@@ -1,5 +1,7 @@
 package com.goat.avaj;
 
+import com.goat.avaj.aircraft.AircraftFactory;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -17,13 +19,16 @@ public class Main {
             System.exit(0);
         }
         BufferedReader br = null;
-
         try {
 
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
             while ((sCurrentLine = br.readLine()) != null) {
-                System.out.println(sCurrentLine);
+//                System.out.println(sCurrentLine);
+                String[] splitted = sCurrentLine.split(" ");
+//                for(String s : splitted )
+//                    System.out.println(s);
+                AircraftFactory aircraftFactory = new AircraftFactory();
             }
         }
         catch (IOException e) {
