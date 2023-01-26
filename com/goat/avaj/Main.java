@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         File inFile = null;
-        System.out.println(args.length);
+//        System.out.println(args.length);
         if ((args.length == 1)) {
             inFile = new File(args[0]);
         }
@@ -24,6 +24,7 @@ public class Main {
         try {
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
+            int updates = Integer.parseInt(br.readLine());
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
                 String[] splitted = sCurrentLine.split(" ");
