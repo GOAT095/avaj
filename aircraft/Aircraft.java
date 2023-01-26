@@ -27,4 +27,13 @@ public class Aircraft {
     {
         return ++Aircraft.idCounter;
     }
+
+    @Override
+    public String toString() {
+        return "Aircraft{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", coordinates=" + coordinates +
+                '}';
+    }
 }

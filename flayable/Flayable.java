@@ -9,4 +9,6 @@ public interface Flayable {
     {
         System.out.println("something");
     }
+
+
 }

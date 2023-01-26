@@ -1,6 +1,8 @@
 package com.goat.avaj;
 
+
 import com.goat.avaj.aircraft.AircraftFactory;
+import com.goat.avaj.flayable.Flayable;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,7 +22,6 @@ public class Main {
         }
         BufferedReader br = null;
         try {
-
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
             while ((sCurrentLine = br.readLine()) != null) {
@@ -28,7 +29,8 @@ public class Main {
                 String[] splitted = sCurrentLine.split(" ");
 //                for(String s : splitted )
 //                    System.out.println(s);
-                AircraftFactory aircraftFactory = new AircraftFactory();
+                Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]), Integer.parseInt(splitted[3]), Integer.parseInt(splitted[4]));
+                System.out.println(f);
             }
         }
         catch (IOException e) {
