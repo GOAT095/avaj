@@ -1,9 +1,9 @@
 package com.goat.avaj.aircraft;
 
 public class Coordinates {
-    final private int longitude;
-    final private int latitude;
-    final private int height;
+    private int longitude;
+    private int latitude;
+    private int height;
 
     public Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
@@ -23,6 +23,18 @@ public class Coordinates {
         return height;
     }
 
+    public void setLongitude(int longitude) {
+        this.longitude = longitude;
+    }
+
+    public void setLatitude(int latitude) {
+        this.latitude = latitude;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
     @Override
     public String toString() {
         return "Coordinates{" +
@@ -31,7 +43,7 @@ public class Coordinates {
                 ", height=" + height +
                 '}';
     }
-
+    
 
 
 //    @Override
