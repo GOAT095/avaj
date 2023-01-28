@@ -21,7 +21,9 @@ public class JetPlane extends Aircraft implements Flayable {
 
     @Override
     public void registerTower(WeatherTower weatherTower) {
-
+        this.weatherTower = weatherTower;
+        this.weatherTower.register(this);
+        System.out.println("Tower says: Jetplane#" + this.name + "(" + this.id + ") registered to weather tower.");
     }
 
     @Override
