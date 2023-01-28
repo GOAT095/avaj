@@ -4,7 +4,7 @@ import com.goat.avaj.aircraft.Coordinates;
 
 public class WeatherTower extends Tower{
     public String getWeather(Coordinates coordinates){
-        return coordinates.toString();
+        return
     }
     public void changeWeather(){
 

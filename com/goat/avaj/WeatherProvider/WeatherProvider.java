@@ -9,7 +9,7 @@ public class WeatherProvider {
 //    static {
 //        weather = new String[]{"adsf", "asdf"};
 //    }
-    public WeatherProvider()
+    private WeatherProvider()
     {
 
     }
