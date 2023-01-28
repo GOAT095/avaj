@@ -13,7 +13,6 @@ public class Helicopter extends Aircraft implements Flayable {
 
     Helicopter(String name, Coordinates coordinates){
         super(name, coordinates);
-
     }
 
     @Override
@@ -25,11 +24,11 @@ public class Helicopter extends Aircraft implements Flayable {
     public void registerTower(WeatherTower weatherTower) {
 
     }
-    @Override
-    public void something()
-    {
-
-    }
+//    @Override
+//    public void something()
+//    {
+//
+//    }
     @Override
     public String toString() {
         return "Helicopter#" + this.name + "(" +  this.id + ")";

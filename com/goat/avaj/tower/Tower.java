@@ -9,11 +9,9 @@ public class Tower{
     private List<Flayable> observers = new ArrayList<Flayable>();
     public void register(Flayable flayable){
         observers.add(flayable);
-        System.out.println("Tower says: " + flayable.toString() + " registered to weather tower.");
     }
     public  void unregister(Flayable flayable){
         observers.remove(flayable);
-        System.out.println("Tower says: " + flayable.toString() + " unregistered from weather tower.");
     }
     //not
     protected void conditionsChanged(){

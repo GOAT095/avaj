@@ -24,14 +24,18 @@ public class Main {
         try {
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
-            int updates = Integer.parseInt(br.readLine());
+            int Nupdates = Integer.parseInt(br.readLine());
+            if(Nupdates < 0) throw new java.io.IOException("missing !");
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
+
                 String[] splitted = sCurrentLine.split(" ");
 //                for(String s : splitted )
 //                    System.out.println(s);
+              if(splitted.length == 5){
                 Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]), Integer.parseInt(splitted[3]), Integer.parseInt(splitted[4]));
-                System.out.println(f.toString());
+                System.out.println(f.toString());}
+                else throw new IOException();
             }
         }
         catch (IOException e) {
