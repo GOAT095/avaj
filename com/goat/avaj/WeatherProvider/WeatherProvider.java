@@ -1,10 +1,11 @@
 package com.goat.avaj.WeatherProvider;
 
+import java.util.Random;
 import com.goat.avaj.aircraft.Coordinates;
 
 public class WeatherProvider {
     private static WeatherProvider  weatherProvider;
-    private static String[] weather;
+    private static String[] weather = {"RAIN","FOG","SUN","SNOW"};
 
 //    static {
 //        weather = new String[]{"adsf", "asdf"};
@@ -21,8 +22,11 @@ public class WeatherProvider {
 
         return weatherProvider;
     }
-    public String gerCurrentWeather(Coordinates coordinates){
-        return coordinates.toString();
+    public String getCurrentWeather(Coordinates coordinates){
+        //some randomizer 1 to be added
+        Random rand = new Random();
+        rand.nextInt(4) + 1;
+        return weather[rand];
     }
 
 }
