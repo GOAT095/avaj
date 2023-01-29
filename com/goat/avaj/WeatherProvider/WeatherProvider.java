@@ -24,9 +24,8 @@ public class WeatherProvider {
     }
     public String getCurrentWeather(Coordinates coordinates){
         //some randomizer 1 to be added
-        Random rand = new Random();
-        int x = rand.nextInt(4) + 1;
-        return weather[x];
+        //needs to be changed later !
+        return weather[(coordinates.getLongitude() > 10 ? 1 : 0) + (coordinates.getLatitude() > 5 ? 1 : 0) + (coordinates.getHeight() > 2 ? 1: 0)];
     }
 
 }

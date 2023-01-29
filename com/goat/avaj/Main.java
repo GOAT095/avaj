@@ -28,7 +28,7 @@ public class Main {
             if(Nupdates < 0) throw new java.io.IOException("missing !");
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
-
+                
                 String[] splitted = sCurrentLine.split(" ");
 //                for(String s : splitted )
 //                    System.out.println(s);
