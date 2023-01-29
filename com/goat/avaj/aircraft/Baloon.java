@@ -13,6 +13,7 @@ public class Baloon extends Aircraft implements Flayable {
 
     public Baloon(String name, Coordinates coordinates){
         super(name, coordinates);
+
     }
 
     @Override
@@ -21,6 +22,11 @@ public class Baloon extends Aircraft implements Flayable {
         this.weatherTower.register(this);
         System.out.println("Tower says: Baloon#" + this.name + "(" + this.id + ") registered to weather tower.");
     }
+//    • Baloon:
+//            ◦ SUN - Longitude increases with 2, Height increases with 4
+//            ◦ RAIN - Height decreases with 5
+//            ◦ FOG - Height decreases with 3
+//            ◦ SNOW - Height decreases with 15
     @Override
     public void updateConditions(){
 

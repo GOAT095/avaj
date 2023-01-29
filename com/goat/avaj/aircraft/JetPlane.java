@@ -13,7 +13,11 @@ public class JetPlane extends Aircraft implements Flayable {
 //    void fuckOff() {
 //
 //    }
-
+//    • JetPlane:
+//            ◦ SUN - Latitude increases with 10, Height increases with 2
+//            ◦ RAIN - Latitude increases with 5
+//            ◦ FOG - Latitude increases with 1
+//            ◦ SNOW - Height decreases with 7
     @Override
     public void updateConditions() {
 

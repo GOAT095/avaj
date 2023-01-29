@@ -14,7 +14,11 @@ public class Helicopter extends Aircraft implements Flayable {
     Helicopter(String name, Coordinates coordinates){
         super(name, coordinates);
     }
-
+//    • Helicopter:
+//            ◦ SUN - Longitude increases with 10, Height increases with 2
+//            ◦ RAIN - Longitude increases with 5
+//            ◦ FOG - Longitude increases with 1
+//            ◦ SNOW - Height decreases with 12
     @Override
     public void updateConditions() {
 

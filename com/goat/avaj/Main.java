@@ -34,18 +34,22 @@ public class Main {
 //                    System.out.println(s);
               if(splitted.length == 5){
                 Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]), Integer.parseInt(splitted[3]), Integer.parseInt(splitted[4]));
-                System.out.println(f.toString());}
+//
+//                System.out.println(f.toString());
+                }
                 else throw new IOException();
             }
         }
         catch (IOException e) {
             e.printStackTrace();
+            exit(1);
         }
         finally {
             try {
                 if (br != null)br.close();
             } catch (IOException e) {
                 e.printStackTrace();
+                exit(1);
             }
         }
 //        File inFile = null;
