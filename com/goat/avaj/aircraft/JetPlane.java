@@ -1,7 +1,7 @@
 package com.goat.avaj.aircraft;
 
 import com.goat.avaj.flayable.Flayable;
-import com.goat.avaj.tower.WeatherTower;
+import com.goat.avaj.WeatherProvider.WeatherTower;
 
 public class JetPlane extends Aircraft implements Flayable {
     private  WeatherTower weatherTower;

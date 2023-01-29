@@ -18,7 +18,7 @@ public class Main {
         }
         else {
             System.err.println("invalide arguments count: " + args.length);
-            System.exit(0);
+            System.exit(1);
         }
         BufferedReader br = null;
         try {
@@ -42,14 +42,14 @@ public class Main {
         }
         catch (IOException e) {
             e.printStackTrace();
-            exit(1);
+            System.exit(1);
         }
         finally {
             try {
                 if (br != null)br.close();
             } catch (IOException e) {
                 e.printStackTrace();
-                exit(1);
+                System.exit(1);
             }
         }
 //        File inFile = null;

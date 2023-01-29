@@ -1,6 +1,5 @@
 package com.goat.avaj.WeatherProvider;
 
-import java.util.Random;
 import com.goat.avaj.aircraft.Coordinates;
 
 public class WeatherProvider {

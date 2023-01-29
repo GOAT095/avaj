@@ -1,6 +1,6 @@
 package com.goat.avaj.flayable;
 
-import com.goat.avaj.tower.WeatherTower;
+import com.goat.avaj.WeatherProvider.WeatherTower;
 
 public interface Flayable {
     void updateConditions();
