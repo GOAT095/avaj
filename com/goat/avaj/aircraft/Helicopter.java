@@ -21,7 +21,26 @@ public class Helicopter extends Aircraft implements Flayable {
 //            ◦ SNOW - Height decreases with 12
     @Override
     public void updateConditions() {
-
+        String WeatherNow = weatherTower.getWeather(this.coordinates);
+        switch (WeatherNow) {
+            case "SUN" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 10, coordinates.getLatitude(), this.coordinates.getHeight() + 2);
+            case "RAIN" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 5, coordinates.getLatitude(), this.coordinates.getHeight());
+            case "FOG" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 1, coordinates.getLatitude(), this.coordinates.getHeight());
+            case "SNOW" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 12);
+            default -> {
+            }
+        }
+        if(this.coordinates.getHeight() > 100)
+            this.coordinates.setHeight(100);
+        if(coordinates.getHeight() <= 0){
+            System.out.println(this.toString() + " is landing right now.");
+            this.weatherTower.unregister(this);
+            System.out.println("Tower says: " + this.toString() + " unregistered from weather tower.");
+        }
     }
 
     @Override

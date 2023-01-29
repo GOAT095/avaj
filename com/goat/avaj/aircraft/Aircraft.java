@@ -12,7 +12,7 @@ public class Aircraft {
      protected String name;
 
     static long idCounter;
-    private Coordinates coordinates;
+    protected Coordinates coordinates;
 //    abstract void fuckOff();
     public Aircraft(String name, Coordinates coordinates) {
         this.id = nextId();

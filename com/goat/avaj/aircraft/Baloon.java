@@ -1,6 +1,5 @@
 package com.goat.avaj.aircraft;
 
-import com.goat.avaj.WeatherProvider.WeatherProvider;
 import com.goat.avaj.flayable.Flayable;
 import com.goat.avaj.WeatherProvider.WeatherTower;
 
@@ -31,7 +30,26 @@ public class Baloon extends Aircraft implements Flayable {
 //            ◦ SNOW - Height decreases with 15
     @Override
     public void updateConditions(){
-
+        String WeatherNow = weatherTower.getWeather(this.coordinates);
+        switch (WeatherNow) {
+            case "SUN" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 10, this.coordinates.getHeight() + 2);
+            case "RAIN" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 5, this.coordinates.getHeight());
+            case "FOG" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 1, this.coordinates.getHeight());
+            case "SNOW" ->
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 7);
+            default -> {
+            }
+        }
+        if(this.coordinates.getHeight() > 100)
+            this.coordinates.setHeight(100);
+        if(coordinates.getHeight() <= 0){
+            System.out.println(this.toString() + " is landing right now.");
+            this.weatherTower.unregister(this);
+            System.out.println("Tower says: " + this.toString() + " unregistered from weather tower.");
+        }
     }
 
     @Override

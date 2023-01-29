@@ -25,7 +25,7 @@ public class Main {
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
             int Nupdates = Integer.parseInt(br.readLine());
-            if(Nupdates < 0) throw new java.io.IOException("missing !");
+            if(Nupdates < 0) throw new java.io.IOException("bad argument !");
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
                 
