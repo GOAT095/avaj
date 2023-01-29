@@ -27,7 +27,9 @@ public class Aircraft {
     {
         return ++Aircraft.idCounter;
     }
-
+//    private Coordinates getCoordinates(){
+//        return this.coordinates;
+//    }
     @Override
     public String toString() {
         return "Aircraft{" +

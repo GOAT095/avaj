@@ -1,0 +1,4 @@
+ rm -rf `find * -name "*.class"`
+ find * -name "*.java" > sources.txt
+ javac @sources.txt
+ java com.goat.avaj.Main scenario.txt
