@@ -2,7 +2,6 @@ package com.goat.avaj.aircraft;
 
 import com.goat.avaj.flayable.Flayable;
 import com.goat.avaj.WeatherProvider.WeatherTower;
-
 public class Helicopter extends Aircraft implements Flayable {
     private WeatherTower weatherTower;
 
@@ -22,22 +21,24 @@ public class Helicopter extends Aircraft implements Flayable {
     @Override
     public void updateConditions() {
         String WeatherNow = weatherTower.getWeather(this.coordinates);
+        Randomizer rand = new Randomizer();
         switch (WeatherNow) {
             case "SUN" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude() + 10, coordinates.getLatitude(), this.coordinates.getHeight() + 2);
-                System.out.println(this.toString() + " " + this.Sun[(int) (Math.random() * 3)]);
+                System.out.println(this.toString() + " " + this.Sun[(rand.generate(0,2))]);
             }
             case "RAIN" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude() + 5, coordinates.getLatitude(), this.coordinates.getHeight());
-                System.out.println(toString() + " " + this.Rain[(int) (Math.random() * 3)]);
+
+                System.out.println(toString() + " " + this.Rain[(rand.generate(0,2))]);
             }
             case "FOG" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude() + 1, coordinates.getLatitude(), this.coordinates.getHeight());
-                System.out.println(toString() + " " + this.Fog[(int) (Math.random() * 3)]);
+                System.out.println(toString() + " " + this.Fog[(rand.generate(0,2))]);
             }
             case "SNOW" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 12);
-                System.out.println(toString() + " " + this.Snow[(int) (Math.random() * 3)]);
+                System.out.println(toString() + " " + this.Snow[(rand.generate(0,2))]);
             }
             default -> {
             }

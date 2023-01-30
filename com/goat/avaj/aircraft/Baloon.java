@@ -31,22 +31,23 @@ public class Baloon extends Aircraft implements Flayable {
     @Override
     public void updateConditions(){
         String WeatherNow = weatherTower.getWeather(this.coordinates);
+        Randomizer rand = new Randomizer();
         switch (WeatherNow) {
             case "SUN" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude() + 2, coordinates.getLatitude(), this.coordinates.getHeight() + 4);
-                System.out.println(this.toString() + " " + this.Sun[(int) (Math.random() * 3)]);
+                System.out.println(this.toString() + " " + this.Sun[(rand.generate(0,2))]);
             }
             case "RAIN" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 5);
-                System.out.println(toString() + " " + this.Rain[(int) (Math.random() * 3)]);
+                System.out.println(toString() + " " + this.Rain[(rand.generate(0,2))]);
             }
             case "FOG" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 3);
-                System.out.println(toString() + " " + this.Fog[(int) (Math.random() * 3)]);
+                System.out.println(toString() + " " + this.Fog[(rand.generate(0,2))]);
             }
             case "SNOW" -> {
                 this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 15);
-                System.out.println(toString() + " " + this.Snow[(int) (Math.random() * 3)]);
+                System.out.println(toString() + " " + this.Snow[(rand.generate(0,2))]);
             }
             default -> {
             }
