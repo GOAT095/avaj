@@ -13,7 +13,7 @@ public class WeatherProvider {
     {
 
     }
-
+    //singleton
     public static WeatherProvider getProvider()
     {
         if (weatherProvider == null)
@@ -24,7 +24,7 @@ public class WeatherProvider {
     public String getCurrentWeather(Coordinates coordinates){
         //some randomizer 1 to be added
         //needs to be changed later !
-        return weather[(coordinates.getLongitude() > 10 ? 1 : 0) + (coordinates.getLatitude() > 5 ? 1 : 0) + (coordinates.getHeight() > 2 ? 1: 0)];
+        return weather[(coordinates.getLongitude() > 10 ? 1 : 0) + (coordinates.getLatitude() > 15 ? 1 : 0) + (coordinates.getHeight() > 2 ? 1: 0)];
     }
 
 }
