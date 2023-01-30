@@ -1,18 +1,18 @@
 package com.goat.avaj;
 
 
+import com.goat.avaj.WeatherProvider.WeatherProvider;
 import com.goat.avaj.WeatherProvider.WeatherTower;
 import com.goat.avaj.aircraft.AircraftFactory;
 import com.goat.avaj.flayable.Flayable;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
         File inFile = null;
+        int NUpdates;
+        WeatherTower weatherTower = new WeatherTower();
 //        System.out.println(args.length);
         if ((args.length == 1)) {
             inFile = new File(args[0]);
@@ -25,7 +25,7 @@ public class Main {
         try {
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
-            int NUpdates = Integer.parseInt(br.readLine());
+            NUpdates = Integer.parseInt(br.readLine());
             if(NUpdates < 0) throw new java.io.IOException("bad argument !");
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
@@ -39,11 +39,15 @@ public class Main {
                 }
                 else throw new IOException();
             }
+            WeatherProvider weatherProvider = WeatherProvider.getProvider();
+            for(int i = 0 ; i < NUpdates; i++)
+                weatherTower.changeWeather();
         }
         catch (IOException e) {
             e.printStackTrace();
             System.exit(1);
         }
+
         finally {
             try {
                 if (br != null)br.close();

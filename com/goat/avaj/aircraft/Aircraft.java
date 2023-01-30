@@ -10,9 +10,13 @@ package com.goat.avaj.aircraft;
 public class Aircraft {
      protected long id ; // auto generated (not included in uml constructor)
      protected String name;
-
     static long idCounter;
     protected Coordinates coordinates;
+
+    String [] Snow = {"bitch im freezing", "this shit cold asf !", "brrrrrrrr !"};
+    String [] Sun = {"great weather !", "hot as fuck boy", ":-) !"};
+    String [] Fog = {"foggy today huh !", "cant see shit !", "idk whats in front but im going!"};
+    String [] Rain = {"this makes me sad !", "its raining bullets !", "Dido !"};
 //    abstract void fuckOff();
     public Aircraft(String name, Coordinates coordinates) {
         this.id = nextId();

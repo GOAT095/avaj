@@ -33,13 +33,13 @@ public class Baloon extends Aircraft implements Flayable {
         String WeatherNow = weatherTower.getWeather(this.coordinates);
         switch (WeatherNow) {
             case "SUN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 10, this.coordinates.getHeight() + 2);
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 2, coordinates.getLatitude(), this.coordinates.getHeight() + 4);
             case "RAIN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 5, this.coordinates.getHeight());
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 5);
             case "FOG" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude() + 1, this.coordinates.getHeight());
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 3);
             case "SNOW" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 7);
+                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 15);
             default -> {
             }
         }
