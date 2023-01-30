@@ -15,9 +15,9 @@ public class Tower{
     }
     //not
     protected void conditionsChanged(){
-        for(Flayable f: observers){
-            f.updateConditions();
+        for(int i =0 ; i <observers.size(); i++)
+            observers.get(i).updateConditions();
         }
 //        observers.stream().forEach(Flayable::updateConditions);
     }
-}
+

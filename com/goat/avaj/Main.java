@@ -35,7 +35,7 @@ public class Main {
                 Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
                         Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
 //                System.out.println(f.toString());
-                  f.registerTower(new WeatherTower());
+                  f.registerTower(weatherTower);
                 }
                 else throw new IOException();
             }

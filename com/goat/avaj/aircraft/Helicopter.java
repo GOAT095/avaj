@@ -23,14 +23,22 @@ public class Helicopter extends Aircraft implements Flayable {
     public void updateConditions() {
         String WeatherNow = weatherTower.getWeather(this.coordinates);
         switch (WeatherNow) {
-            case "SUN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 10, coordinates.getLatitude(), this.coordinates.getHeight() + 2);
-            case "RAIN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 5, coordinates.getLatitude(), this.coordinates.getHeight());
-            case "FOG" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 1, coordinates.getLatitude(), this.coordinates.getHeight());
-            case "SNOW" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 12);
+            case "SUN" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude() + 10, coordinates.getLatitude(), this.coordinates.getHeight() + 2);
+                System.out.println(this.toString() + " " + this.Sun[(int) (Math.random() * 3)]);
+            }
+            case "RAIN" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude() + 5, coordinates.getLatitude(), this.coordinates.getHeight());
+                System.out.println(toString() + " " + this.Rain[(int) (Math.random() * 3)]);
+            }
+            case "FOG" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude() + 1, coordinates.getLatitude(), this.coordinates.getHeight());
+                System.out.println(toString() + " " + this.Fog[(int) (Math.random() * 3)]);
+            }
+            case "SNOW" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 12);
+                System.out.println(toString() + " " + this.Snow[(int) (Math.random() * 3)]);
+            }
             default -> {
             }
         }

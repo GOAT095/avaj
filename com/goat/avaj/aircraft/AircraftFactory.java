@@ -1,6 +1,6 @@
 package com.goat.avaj.aircraft;
 
-import com.goat.avaj.exception.IllegalArgumentException;
+import com.goat.avaj.exception.BadArgument;
 import com.goat.avaj.flayable.Flayable;
 
 //factory design pattern
@@ -18,9 +18,9 @@ public class AircraftFactory {
                 case "Baloon":
                     return new Baloon(name, coordinates);
                 default:
-                    throw new IllegalArgumentException("Unknown Aircraft Type " + type);
+                    throw new BadArgument("Unknown Aircraft Type " + type);
             }
-        } catch (IllegalArgumentException e) {
+        } catch (BadArgument e) {
             throw new RuntimeException(e);
         }
     }

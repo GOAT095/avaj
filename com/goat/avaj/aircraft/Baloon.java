@@ -32,14 +32,22 @@ public class Baloon extends Aircraft implements Flayable {
     public void updateConditions(){
         String WeatherNow = weatherTower.getWeather(this.coordinates);
         switch (WeatherNow) {
-            case "SUN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude() + 2, coordinates.getLatitude(), this.coordinates.getHeight() + 4);
-            case "RAIN" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 5);
-            case "FOG" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 3);
-            case "SNOW" ->
-                    this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 15);
+            case "SUN" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude() + 2, coordinates.getLatitude(), this.coordinates.getHeight() + 4);
+                System.out.println(this.toString() + " " + this.Sun[(int) (Math.random() * 3)]);
+            }
+            case "RAIN" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 5);
+                System.out.println(toString() + " " + this.Rain[(int) (Math.random() * 3)]);
+            }
+            case "FOG" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 3);
+                System.out.println(toString() + " " + this.Fog[(int) (Math.random() * 3)]);
+            }
+            case "SNOW" -> {
+                this.coordinates = new Coordinates(this.coordinates.getLongitude(), coordinates.getLatitude(), this.coordinates.getHeight() - 15);
+                System.out.println(toString() + " " + this.Snow[(int) (Math.random() * 3)]);
+            }
             default -> {
             }
         }
