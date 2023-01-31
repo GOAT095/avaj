@@ -33,14 +33,6 @@ public class Main {
                 
                 String[] splitted = sCurrentLine.split(" ");
               if(splitted.length == 5){
-                  for(int i = 2; i < 5; i++){
-                      try {
-                          Integer.parseInt(splitted[i]);
-                      }
-                      catch (NumberFormat e) {
-                          throw new NumberFormat(splitted[i] +  "is not a valid Number !");
-                      }
-                  }
                 Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
                         Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
 //                System.out.println(f.toString());
