@@ -31,20 +31,21 @@ public class Main {
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
                 String[] splitted = sCurrentLine.split(" ");
-              if(splitted.length == 5){
+              if(splitted.length == 5 && Integer.parseInt(splitted[2]) > 0 &&
+                Integer.parseInt(splitted[3]) > 0 && Integer.parseInt(splitted[4]) > 0){
                 Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
                         Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
 //                System.out.println(f.toString());
                   f.registerTower(weatherTower);
                 }
-                else throw new BadArgument("must be a set of 5 arguments !");
+                else throw new BadArgument("must be a set of 5 arguments with positive coordinates !");
             }
             WeatherProvider weatherProvider = WeatherProvider.getProvider();
             for(int i = 0 ; i < NUpdates; i++)
                 weatherTower.changeWeather();
         }
         catch (IOException e) {
-            throw new BadArgument("Invalid input " + e.toString());
+            throw new BadArgument("Invalid input " + e);
 
         }
         finally {
