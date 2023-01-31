@@ -5,7 +5,6 @@ import com.goat.avaj.WeatherProvider.WeatherProvider;
 import com.goat.avaj.WeatherProvider.WeatherTower;
 import com.goat.avaj.aircraft.AircraftFactory;
 import com.goat.avaj.exception.BadArgument;
-import com.goat.avaj.exception.NumberFormat;
 import com.goat.avaj.flayable.Flayable;
 
 import java.io.*;
@@ -38,7 +37,7 @@ public class Main {
 //                System.out.println(f.toString());
                   f.registerTower(weatherTower);
                 }
-                else throw new BadArgument("d");
+                else throw new BadArgument("must be a set of 5 arguments !");
             }
             WeatherProvider weatherProvider = WeatherProvider.getProvider();
             for(int i = 0 ; i < NUpdates; i++)

@@ -4,11 +4,8 @@ import com.goat.avaj.aircraft.Coordinates;
 
 public class WeatherProvider {
     private static WeatherProvider  weatherProvider;
-    private static String[] weather = {"RAIN","FOG","SUN","SNOW"};
 
-//    static {
-//        weather = new String[]{"adsf", "asdf"};
-//    }
+    private static String[] weather = {"RAIN","FOG","SUN","SNOW"};
     private WeatherProvider()
     {
 
