@@ -24,6 +24,9 @@ public class Simulation {
         }
         BufferedReader br = null;
         try {
+            File file = new File("simulation.txt");
+            PrintStream stream = new PrintStream(file);
+            System.setOut(stream);
             String sCurrentLine;
             br = new BufferedReader(new FileReader(inFile));
             NUpdates = Integer.parseInt(br.readLine());
