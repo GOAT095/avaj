@@ -9,7 +9,7 @@ import com.goat.avaj.flayable.Flayable;
 
 import java.io.*;
 
-public class Main {
+public class Simulation {
     public static void main(String[] args) {
         File inFile = null;
         int NUpdates;
@@ -31,12 +31,12 @@ public class Main {
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
                 String[] splitted = sCurrentLine.split(" ");
-              if(splitted.length == 5 && Integer.parseInt(splitted[2]) > 0 &&
-                Integer.parseInt(splitted[3]) > 0 && Integer.parseInt(splitted[4]) > 0){
-                Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
-                        Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
+                if(splitted.length == 5 && Integer.parseInt(splitted[2]) > 0 &&
+                        Integer.parseInt(splitted[3]) > 0 && Integer.parseInt(splitted[4]) > 0){
+                    Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
+                            Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
 //                System.out.println(f.toString());
-                  f.registerTower(weatherTower);
+                    f.registerTower(weatherTower);
                 }
                 else throw new BadArgument("must be a set of 5 arguments with positive coordinates !");
             }
@@ -56,5 +56,5 @@ public class Main {
                 System.exit(1);
             }
         }
-}
+    }
 }
