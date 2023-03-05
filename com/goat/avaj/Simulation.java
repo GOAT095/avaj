@@ -10,7 +10,7 @@ import com.goat.avaj.flayable.Flayable;
 import java.io.*;
 
 public class Simulation {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         File inFile = null;
         int NUpdates;
         WeatherTower weatherTower = new WeatherTower();
@@ -48,7 +48,10 @@ public class Simulation {
                 weatherTower.changeWeather();
         }
         catch (BadArgument |  IOException e) {
-            throw new BadArgument("Invalid input " + e);
+            //just to set a new custom message needs to be tested later
+            IOException ee = new IOException ("your message");
+            ee.setStackTrace(e.getStackTrace());
+            throw ee;
 
         }
         finally {
