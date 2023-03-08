@@ -48,10 +48,7 @@ public class Simulation {
                 weatherTower.changeWeather();
         }
         catch (BadArgument |  IOException e) {
-            //just to set a new custom message needs to be tested later
-            IOException ee = new IOException ("your message");
-            ee.setStackTrace(e.getStackTrace());
-            throw ee;
+            throw new BadArgument("Invalid input " + e);
 
         }
         finally {
