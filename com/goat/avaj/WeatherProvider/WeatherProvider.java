@@ -24,6 +24,8 @@ public class WeatherProvider {
         int longti = (int) (coordinates.getLongitude() * Math.random() * 5) % 2;
         int lati = (int) (coordinates.getLatitude() * Math.random() * 5) % 2;
         int hei = (int) (coordinates.getHeight() * Math.random() * 5) % 2;
+        if(longti + lati + hei >= 4)
+            throw new RuntimeException("bad weather !");
         return weather[longti + lati + hei];
     }
 
