@@ -21,7 +21,10 @@ public class WeatherProvider {
     public String getCurrentWeather(Coordinates coordinates){
         //some randomizer 1 to be added
         //needs to be changed later !
-        return weather[(coordinates.getLongitude() > 10 ? 1 : 0) + (coordinates.getLatitude() > 15 ? 1 : 0) + (coordinates.getHeight() > 2 ? 1: 0)];
+        int longti = (int) (coordinates.getLongitude() * Math.random() * 5) % 2;
+        int lati = (int) (coordinates.getLatitude() * Math.random() * 5) % 2;
+        int hei = (int) (coordinates.getHeight() * Math.random() * 5) % 2;
+        return weather[longti + lati + hei];
     }
 
 }
