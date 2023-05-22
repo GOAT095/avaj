@@ -7,173 +7,207 @@ Tower says: Helicopter#H3(6) registered to weather tower.
 Tower says: Baloon#B3(7) registered to weather tower.
 Tower says: JetPlane#J2(8) registered to weather tower.
 Tower says: Helicopter#H4(9) registered to weather tower.
-Baloon#B1(1) Dido !
-Baloon#B2(2) idk whats in front but im going!
-JetPlane#J1(3) hot as fuck boy
-Helicopter#H1(4) idk whats in front but im going!
-Helicopter#H2(5) this shit cold asf !
-Helicopter#H3(6) cant see shit !
-Baloon#B3(7) idk whats in front but im going!
-JetPlane#J2(8) hot as fuck boy
-Helicopter#H4(9) its raining bullets !
-Baloon#B1(1) this makes me sad !
-Baloon#B2(2) :-) !
-JetPlane#J1(3) foggy today huh !
-Helicopter#H1(4) foggy today huh !
-Helicopter#H2(5) its raining bullets !
-Helicopter#H3(6) hot as fuck boy
-Baloon#B3(7) idk whats in front but im going!
-JetPlane#J2(8) brrrrrrrr !
-Helicopter#H4(9) cant see shit !
-Baloon#B1(1) this shit cold asf !
-Baloon#B1(1) is landing right now.
-Tower says: Baloon#B1(1) unregistered from weather tower.
-JetPlane#J1(3) :-) !
-Helicopter#H1(4) :-) !
-Helicopter#H2(5) :-) !
-Helicopter#H3(6) cant see shit !
-Baloon#B3(7) brrrrrrrr !
-JetPlane#J2(8) cant see shit !
-Helicopter#H4(9) great weather !
-Baloon#B2(2) hot as fuck boy
-JetPlane#J1(3) this shit cold asf !
-Helicopter#H1(4) :-) !
-Helicopter#H2(5) great weather !
-Helicopter#H3(6) hot as fuck boy
-Baloon#B3(7) its raining bullets !
-JetPlane#J2(8) great weather !
-Helicopter#H4(9) this shit cold asf !
+Baloon#B1(1) great weather !
 Baloon#B2(2) idk whats in front but im going!
 JetPlane#J1(3) great weather !
+Helicopter#H1(4) foggy today huh !
+Helicopter#H2(5) this shit cold asf !
+Helicopter#H3(6) hot as fuck boy
+Baloon#B3(7) :-) !
+JetPlane#J2(8) foggy today huh !
+Helicopter#H4(9) hot as fuck boy
+Baloon#B1(1) cant see shit !
+Baloon#B2(2) great weather !
+JetPlane#J1(3) idk whats in front but im going!
 Helicopter#H1(4) great weather !
 Helicopter#H2(5) cant see shit !
-Helicopter#H3(6) idk whats in front but im going!
-Baloon#B3(7) hot as fuck boy
-JetPlane#J2(8) this makes me sad !
-Helicopter#H4(9) cant see shit !
-Baloon#B2(2) this shit cold asf !
-JetPlane#J1(3) :-) !
-Helicopter#H1(4) this shit cold asf !
-Helicopter#H2(5) foggy today huh !
+Helicopter#H3(6) hot as fuck boy
+Baloon#B3(7) Dido !
+JetPlane#J2(8) hot as fuck boy
+Helicopter#H4(9) hot as fuck boy
+Baloon#B1(1) foggy today huh !
+Baloon#B2(2) hot as fuck boy
+JetPlane#J1(3) idk whats in front but im going!
+Helicopter#H1(4) :-) !
+Helicopter#H2(5) great weather !
+Helicopter#H3(6) foggy today huh !
+Baloon#B3(7) foggy today huh !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) foggy today huh !
+Baloon#B1(1) great weather !
+Baloon#B2(2) idk whats in front but im going!
+JetPlane#J1(3) foggy today huh !
+Helicopter#H1(4) cant see shit !
+Helicopter#H2(5) great weather !
+Helicopter#H3(6) :-) !
+Baloon#B3(7) this makes me sad !
+JetPlane#J2(8) :-) !
+Helicopter#H4(9) idk whats in front but im going!
+Baloon#B1(1) foggy today huh !
+Baloon#B2(2) foggy today huh !
+JetPlane#J1(3) cant see shit !
+Helicopter#H1(4) idk whats in front but im going!
+Helicopter#H2(5) :-) !
 Helicopter#H3(6) idk whats in front but im going!
 Baloon#B3(7) cant see shit !
-JetPlane#J2(8) its raining bullets !
-Helicopter#H4(9) Dido !
-Baloon#B2(2) brrrrrrrr !
-Baloon#B2(2) is landing right now.
-Tower says: Baloon#B2(2) unregistered from weather tower.
-Helicopter#H1(4) Dido !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) :-) !
+Baloon#B1(1) foggy today huh !
+Baloon#B2(2) great weather !
+JetPlane#J1(3) foggy today huh !
+Helicopter#H1(4) idk whats in front but im going!
 Helicopter#H2(5) idk whats in front but im going!
-Helicopter#H3(6) idk whats in front but im going!
+Helicopter#H3(6) cant see shit !
+Baloon#B3(7) :-) !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) idk whats in front but im going!
+Baloon#B1(1) cant see shit !
+Baloon#B2(2) cant see shit !
+JetPlane#J1(3) cant see shit !
+Helicopter#H1(4) great weather !
+Helicopter#H2(5) its raining bullets !
+Helicopter#H3(6) great weather !
+Baloon#B3(7) foggy today huh !
+JetPlane#J2(8) brrrrrrrr !
+Helicopter#H4(9) bitch im freezing
+Baloon#B1(1) foggy today huh !
+Baloon#B2(2) idk whats in front but im going!
+JetPlane#J1(3) idk whats in front but im going!
+Helicopter#H1(4) foggy today huh !
+Helicopter#H2(5) :-) !
+Helicopter#H3(6) cant see shit !
+Baloon#B3(7) hot as fuck boy
+JetPlane#J2(8) idk whats in front but im going!
+Helicopter#H4(9) foggy today huh !
+Baloon#B1(1) :-) !
+Baloon#B2(2) :-) !
+JetPlane#J1(3) hot as fuck boy
+Helicopter#H1(4) idk whats in front but im going!
+Helicopter#H2(5) bitch im freezing
+Helicopter#H3(6) great weather !
+Baloon#B3(7) this shit cold asf !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) this shit cold asf !
+Baloon#B1(1) :-) !
+Baloon#B2(2) its raining bullets !
+JetPlane#J1(3) :-) !
+Helicopter#H1(4) brrrrrrrr !
+Helicopter#H2(5) idk whats in front but im going!
+Helicopter#H3(6) Dido !
+Baloon#B3(7) :-) !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) foggy today huh !
+Baloon#B1(1) this shit cold asf !
+Baloon#B2(2) foggy today huh !
+JetPlane#J1(3) idk whats in front but im going!
+Helicopter#H1(4) cant see shit !
+Helicopter#H2(5) idk whats in front but im going!
+Helicopter#H3(6) this makes me sad !
 Baloon#B3(7) :-) !
 JetPlane#J2(8) idk whats in front but im going!
+Helicopter#H4(9) cant see shit !
+Baloon#B1(1) cant see shit !
+Baloon#B1(1) is landing right now.
+Tower says: Baloon#B1(1) unregistered from weather tower.
+JetPlane#J1(3) great weather !
+Helicopter#H1(4) this makes me sad !
+Helicopter#H2(5) this makes me sad !
+Helicopter#H3(6) great weather !
+Baloon#B3(7) foggy today huh !
+JetPlane#J2(8) great weather !
+Helicopter#H4(9) foggy today huh !
+Baloon#B2(2) :-) !
+JetPlane#J1(3) idk whats in front but im going!
+Helicopter#H1(4) this shit cold asf !
+Helicopter#H2(5) great weather !
+Helicopter#H3(6) foggy today huh !
+Baloon#B3(7) foggy today huh !
+JetPlane#J2(8) :-) !
+Helicopter#H4(9) idk whats in front but im going!
+Baloon#B2(2) great weather !
+JetPlane#J1(3) foggy today huh !
+Helicopter#H1(4) foggy today huh !
+Helicopter#H2(5) foggy today huh !
+Helicopter#H3(6) bitch im freezing
+Baloon#B3(7) great weather !
+JetPlane#J2(8) idk whats in front but im going!
 Helicopter#H4(9) hot as fuck boy
-JetPlane#J1(3) bitch im freezing
-Helicopter#H1(4) its raining bullets !
+Baloon#B2(2) bitch im freezing
+JetPlane#J1(3) :-) !
+Helicopter#H1(4) foggy today huh !
+Helicopter#H2(5) bitch im freezing
+Helicopter#H3(6) cant see shit !
+Baloon#B3(7) idk whats in front but im going!
+JetPlane#J2(8) this shit cold asf !
+Helicopter#H4(9) hot as fuck boy
+Baloon#B2(2) this shit cold asf !
+Baloon#B2(2) is landing right now.
+Tower says: Baloon#B2(2) unregistered from weather tower.
+Helicopter#H1(4) this makes me sad !
+Helicopter#H2(5) Dido !
+Helicopter#H3(6) brrrrrrrr !
+Baloon#B3(7) hot as fuck boy
+JetPlane#J2(8) :-) !
+Helicopter#H4(9) Dido !
+JetPlane#J1(3) :-) !
+Helicopter#H1(4) cant see shit !
+Helicopter#H2(5) :-) !
+Helicopter#H3(6) great weather !
+Baloon#B3(7) great weather !
+JetPlane#J2(8) idk whats in front but im going!
+Helicopter#H4(9) foggy today huh !
+JetPlane#J1(3) hot as fuck boy
+Helicopter#H1(4) cant see shit !
+Helicopter#H2(5) this makes me sad !
+Helicopter#H3(6) this makes me sad !
+Baloon#B3(7) bitch im freezing
+JetPlane#J2(8) :-) !
+Helicopter#H4(9) this makes me sad !
+JetPlane#J1(3) :-) !
+Helicopter#H1(4) cant see shit !
+Helicopter#H2(5) this shit cold asf !
+Helicopter#H3(6) idk whats in front but im going!
+Baloon#B3(7) great weather !
+JetPlane#J2(8) foggy today huh !
+Helicopter#H4(9) cant see shit !
+JetPlane#J1(3) :-) !
+Helicopter#H1(4) :-) !
+Helicopter#H2(5) hot as fuck boy
+Helicopter#H3(6) great weather !
+Baloon#B3(7) cant see shit !
+JetPlane#J2(8) bitch im freezing
+Helicopter#H4(9) idk whats in front but im going!
+JetPlane#J1(3) brrrrrrrr !
+Helicopter#H1(4) this makes me sad !
+Helicopter#H2(5) idk whats in front but im going!
+Helicopter#H3(6) :-) !
+Baloon#B3(7) hot as fuck boy
+JetPlane#J2(8) brrrrrrrr !
+Helicopter#H4(9) bitch im freezing
+JetPlane#J1(3) idk whats in front but im going!
+Helicopter#H1(4) idk whats in front but im going!
 Helicopter#H2(5) foggy today huh !
 Helicopter#H3(6) this shit cold asf !
 Baloon#B3(7) :-) !
-JetPlane#J2(8) cant see shit !
-Helicopter#H4(9) cant see shit !
-JetPlane#J1(3) cant see shit !
-Helicopter#H1(4) foggy today huh !
-Helicopter#H2(5) bitch im freezing
-Helicopter#H3(6) great weather !
-Baloon#B3(7) idk whats in front but im going!
 JetPlane#J2(8) hot as fuck boy
 Helicopter#H4(9) great weather !
-JetPlane#J1(3) :-) !
-Helicopter#H1(4) foggy today huh !
-Helicopter#H2(5) :-) !
-Helicopter#H3(6) cant see shit !
-Baloon#B3(7) hot as fuck boy
-JetPlane#J2(8) Dido !
-Helicopter#H4(9) idk whats in front but im going!
-JetPlane#J1(3) :-) !
-Helicopter#H1(4) bitch im freezing
-Helicopter#H2(5) cant see shit !
-Helicopter#H3(6) cant see shit !
-Baloon#B3(7) hot as fuck boy
-JetPlane#J2(8) foggy today huh !
-Helicopter#H4(9) this shit cold asf !
-JetPlane#J1(3) great weather !
-Helicopter#H1(4) :-) !
-Helicopter#H2(5) :-) !
-Helicopter#H3(6) foggy today huh !
-Baloon#B3(7) hot as fuck boy
-JetPlane#J2(8) bitch im freezing
-Helicopter#H4(9) great weather !
-JetPlane#J1(3) cant see shit !
+JetPlane#J1(3) foggy today huh !
 Helicopter#H1(4) brrrrrrrr !
 Helicopter#H1(4) is landing right now.
 Tower says: Helicopter#H1(4) unregistered from weather tower.
-Helicopter#H3(6) Dido !
-Baloon#B3(7) brrrrrrrr !
+Helicopter#H3(6) great weather !
+Baloon#B3(7) :-) !
 JetPlane#J2(8) hot as fuck boy
-Helicopter#H4(9) :-) !
-JetPlane#J1(3) Dido !
-Helicopter#H2(5) great weather !
-Helicopter#H3(6) brrrrrrrr !
-Baloon#B3(7) Dido !
-JetPlane#J2(8) cant see shit !
-Helicopter#H4(9) great weather !
-JetPlane#J1(3) bitch im freezing
-Helicopter#H2(5) bitch im freezing
-Helicopter#H3(6) hot as fuck boy
-Baloon#B3(7) great weather !
+Helicopter#H4(9) foggy today huh !
+JetPlane#J1(3) foggy today huh !
+Helicopter#H2(5) this shit cold asf !
+Helicopter#H2(5) is landing right now.
+Tower says: Helicopter#H2(5) unregistered from weather tower.
+Baloon#B3(7) hot as fuck boy
 JetPlane#J2(8) foggy today huh !
-Helicopter#H4(9) idk whats in front but im going!
-JetPlane#J1(3) hot as fuck boy
-Helicopter#H2(5) :-) !
-Helicopter#H3(6) foggy today huh !
-Baloon#B3(7) foggy today huh !
-JetPlane#J2(8) idk whats in front but im going!
 Helicopter#H4(9) brrrrrrrr !
-JetPlane#J1(3) hot as fuck boy
-Helicopter#H2(5) this makes me sad !
-Helicopter#H3(6) foggy today huh !
-Baloon#B3(7) foggy today huh !
-JetPlane#J2(8) this makes me sad !
-Helicopter#H4(9) bitch im freezing
-JetPlane#J1(3) idk whats in front but im going!
-Helicopter#H2(5) hot as fuck boy
+JetPlane#J1(3) great weather !
 Helicopter#H3(6) its raining bullets !
-Baloon#B3(7) this makes me sad !
-Baloon#B3(7) is landing right now.
-Tower says: Baloon#B3(7) unregistered from weather tower.
-Helicopter#H4(9) cant see shit !
-JetPlane#J1(3) this shit cold asf !
-Helicopter#H2(5) hot as fuck boy
-Helicopter#H3(6) foggy today huh !
-JetPlane#J2(8) foggy today huh !
-Helicopter#H4(9) foggy today huh !
-JetPlane#J1(3) bitch im freezing
-Helicopter#H2(5) its raining bullets !
-Helicopter#H3(6) :-) !
-JetPlane#J2(8) foggy today huh !
-Helicopter#H4(9) this makes me sad !
-JetPlane#J1(3) hot as fuck boy
-Helicopter#H2(5) idk whats in front but im going!
-Helicopter#H3(6) its raining bullets !
-JetPlane#J2(8) Dido !
-Helicopter#H4(9) foggy today huh !
-JetPlane#J1(3) Dido !
-Helicopter#H2(5) great weather !
-Helicopter#H3(6) idk whats in front but im going!
-JetPlane#J2(8) idk whats in front but im going!
-Helicopter#H4(9) idk whats in front but im going!
-JetPlane#J1(3) this makes me sad !
-Helicopter#H2(5) idk whats in front but im going!
-Helicopter#H3(6) hot as fuck boy
-JetPlane#J2(8) cant see shit !
-Helicopter#H4(9) :-) !
-JetPlane#J1(3) hot as fuck boy
-Helicopter#H2(5) cant see shit !
-Helicopter#H3(6) idk whats in front but im going!
-JetPlane#J2(8) its raining bullets !
-Helicopter#H4(9) :-) !
-JetPlane#J1(3) idk whats in front but im going!
-Helicopter#H2(5) cant see shit !
-Helicopter#H3(6) hot as fuck boy
-JetPlane#J2(8) hot as fuck boy
-Helicopter#H4(9) cant see shit !
+Baloon#B3(7) idk whats in front but im going!
+JetPlane#J2(8) :-) !
+Helicopter#H4(9) Dido !
