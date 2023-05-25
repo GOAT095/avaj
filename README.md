@@ -6,7 +6,7 @@ UML class diagram. The Unified Modeling Language is used in software engineering
 for visualizing the design of an application. It offers programmers a standardized way of
 thinking about Object Oriented software, before writing any line of code.
 
-<<<<<<< HEAD
+
 observer :  https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
 
 factory :   https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
