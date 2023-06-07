@@ -3,6 +3,7 @@ package com.goat.avaj;
 
 import com.goat.avaj.WeatherProvider.WeatherProvider;
 import com.goat.avaj.WeatherProvider.WeatherTower;
+import com.goat.avaj.aircraft.Aircraft;
 import com.goat.avaj.aircraft.AircraftFactory;
 import com.goat.avaj.exception.BadArgument;
 import com.goat.avaj.flayable.Flayable;
@@ -34,9 +35,10 @@ public class Simulation {
             while ((sCurrentLine = br.readLine()) != null) {
 //                System.out.println(sCurrentLine);
                 String[] splitted = sCurrentLine.split(" ");
+                AircraftFactory aircraftF = AircraftFactory.getInstance();
                 if(splitted.length == 5 && Integer.parseInt(splitted[2]) > 0 &&
                         Integer.parseInt(splitted[3]) > 0 && Integer.parseInt(splitted[4]) >= 0){
-                    Flayable f = new AircraftFactory().newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
+                    Flayable f = aircraftF.newAircraft(splitted[0], splitted[1] , Integer.parseInt(splitted[2]),
                             Integer.parseInt(splitted[3]), (Math.min(Integer.parseInt(splitted[4]), 100)));
 //                System.out.println(f.toString());
                     f.registerTower(weatherTower); // register the aircraft to the weather tower

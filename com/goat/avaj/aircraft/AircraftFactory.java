@@ -5,6 +5,16 @@ import com.goat.avaj.flayable.Flayable;
 
 //factory design pattern
 public class AircraftFactory {
+    private static AircraftFactory instance;
+    public static AircraftFactory getInstance() {
+        if (instance == null) {
+            instance = new AircraftFactory();
+        }
+        return instance;
+    }
+    private AircraftFactory() {
+    }
+
     public Flayable newAircraft(String type, String name, int longitude, int latitude, int height) {
         if (type == null)
             return null;
