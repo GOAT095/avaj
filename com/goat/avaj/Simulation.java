@@ -3,7 +3,6 @@ package com.goat.avaj;
 
 import com.goat.avaj.WeatherProvider.WeatherProvider;
 import com.goat.avaj.WeatherProvider.WeatherTower;
-import com.goat.avaj.aircraft.Aircraft;
 import com.goat.avaj.aircraft.AircraftFactory;
 import com.goat.avaj.exception.BadArgument;
 import com.goat.avaj.flayable.Flayable;
@@ -11,7 +10,7 @@ import com.goat.avaj.flayable.Flayable;
 import java.io.*;
 
 public class Simulation {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         File inFile = null;
         int NUpdates;
         WeatherTower weatherTower = new WeatherTower();
